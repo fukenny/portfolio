@@ -13,7 +13,9 @@
         <script src="../js/jquery.mobile-1.4.2.min.js"></script>
     </head>
     <body>
-        <?php include_once("analyticstracking.php") ?>
+        <!-- Google Analytics include -->
+        <?php include_once("../analyticstracking.php") ?>
+        <!-- /GA -->
         <div data-role="page" class="jqm-kms" data-quicklinks="true">
             <!-- header -->
             <div data-role="header" class="jqm-header">
@@ -200,6 +202,7 @@
             <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
                 <p>Kenneth M Solans</p>
                 <p>Copyright 2014 Kenneth M Solans</p>
-                </div><!-- /Footer -->
+                </div>
+            <!-- /Footer -->
             </body>
         </html>

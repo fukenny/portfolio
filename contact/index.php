@@ -13,6 +13,9 @@
 		<script src="../js/jquery.mobile-1.4.2.min.js"></script>
 	</head>
 	<body>
+		<!-- Google Analytics include -->
+		<?php include_once("analyticstracking.php") ?>
+		<!-- /GA -->
 		<div data-role="page" class="jqm-kms" data-quicklinks="true">
 			<div data-role="header" class="jqm-header">
 				<h2><a href="../" title="Web Website Development Blogs Content Management">Kenneth Solans</a></h2>
@@ -34,9 +37,9 @@
 							<label for="email">Email:</label>
 							<input type="email" name="email" id="email" value="" data-mini="true" />
 							<div data-role="fieldcontain">
-									<label for="textarea">Message:</label>
-									<textarea style="clear: both; width: 100%; margin-top: 8px;" name="textarea" id="textarea" data-mini="true"></textarea>
-									<div class="ui-block-b"><button type="submit" data-theme="a" data-mini="true">Submit</button></div>
+										<label for="textarea">Message:</label>
+										<textarea style="clear: both; width: 100%; margin-top: 8px;" name="textarea" id="textarea" data-mini="true"></textarea>
+										<div class="ui-block-b"><button type="submit" data-theme="a" data-mini="true">Submit</button></div>
 								-->
 								
 							</div>
@@ -90,6 +93,7 @@
 				<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
 					<p>Kenneth M Solans</p>
 					<p>Copyright 2014 Kenneth M Solans</p>
-					</div><!-- /Footer -->
-				</body>
-			</html>
+				</div>
+				<!-- /Footer -->
+			</body>
+		</html>

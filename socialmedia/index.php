@@ -13,7 +13,8 @@
 		<script src="../js/jquery.mobile-1.4.2.min.js"></script>
 	</head>
 	<body>
-		<?php include_once("analyticstracking.php") ?>
+		<!-- Google Analytics include -->
+		<?php include_once("../analyticstracking.php") ?>
 		<div data-role="page" class="jqm-kms" data-quicklinks="true">
 			<div data-role="header" class="jqm-header">
 				<h2><a href="../" title="Kenneth Solans home">Kenneth Solans</a></h2>

@@ -13,16 +13,15 @@
 		<script src="js/jquery.mobile-1.4.2.min.js"></script>
 	</head>
 	<body>
+		<!-- Google Analytics include -->
 		<?php include_once("analyticstracking.php") ?>
+		<!-- /GA -->
 		<!--[if lt IE 8]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 		<div data-role="page" class="jqm-kms jqm-home">
 			<div data-role="header" class="jqm-header">
-				<!--<h2>Kenneth Solans</h2>-->
-				<!-- <p>Version <span class="jqm-version"></span></p> -->
 				<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
-				<!--<a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>-->
 				<img style="width: 100%; height: 400px;" src="_assets/img/skyline-2.jpg">
 			</div>
 			<!-- /header -->
@@ -66,13 +65,5 @@
 				<p>Copyright 2014 Kenneth M Solans</p>
 			</div>
 			<!-- /Footer -->
-			<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-50300740-1', 'ksolans.com');
-			ga('send', 'pageview');
-			</script>
 		</body>
 	</html>

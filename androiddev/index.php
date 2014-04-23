@@ -13,7 +13,9 @@
 		<script src="../js/jquery.mobile-1.4.2.min.js"></script>
 	</head>
 	<body>
-		<?php include_once("analyticstracking.php") ?>
+		<!-- Google Analytics include -->
+		<?php include_once("../analyticstracking.php") ?>
+		<!-- /GA -->
 		<div data-role="page" class="jqm-kms" data-quicklinks="true">
 			<div data-role="header" class="jqm-header">
 				<h2><a href="../" title="Kenneth Solans home">Kenneth Solans</a></h2>
@@ -67,6 +69,17 @@
 			<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
 				<p>Kenneth M Solans</p>
 				<p>Copyright 2014 Kenneth M Solans</p>
-				</div><!-- /Footer -->
-			</body>
-		</html>
+			</div>
+			<!-- /Footer -->
+			<!-- Google Analytics -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-50300740-1', 'ksolans.com');
+			ga('send', 'pageview');
+			</script>
+			<!-- /GA -->
+		</body>
+	</html>
