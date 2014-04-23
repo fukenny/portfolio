@@ -94,7 +94,7 @@
 	background-color: transparent;
 	border-bottom: 1px solid #ddd;
 	font-size: 1.6em;
-	padding-bottom: .2em;
+	/*padding-bottom: .2em;*/
 	margin: 0 0 .7375em;
 }
 .jqm-kms .jqm-content > h3 {
@@ -154,7 +154,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 .jqm-block-content-clear {
-	margin: .5em;
+	/*margin: .5em;*/
 	padding: 1em;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -171,8 +171,8 @@
 	font-weight: 300;
 	color: #3eb249;
 	border-bottom: 1px solid #ddd;
-	padding-bottom: .25em;
-	margin: 0 0 .5em;
+	/*padding-bottom: .25em;*/
+	/*margin: 0 0 .5em;*/
 }
 .jqm-block-content p {
 	font-size: 1.1em;

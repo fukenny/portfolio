@@ -3240,8 +3240,8 @@ ul.ui-grid-a, ul.ui-grid-b, ul.ui-grid-c, ul.ui-grid-d, ul.ui-grid-solo, li.ui-b
 }
 .ui-listview .ui-li-has-thumb>img:first-child, .ui-listview .ui-li-has-thumb>.ui-btn>img:first-child, .ui-listview .ui-li-has-thumb .ui-li-thumb {
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: 8px;
+	top: 9px;
 	max-height: 5em;
 	max-width: 5em
 }
