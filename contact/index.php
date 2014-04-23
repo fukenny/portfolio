@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<!-- Google Analytics include -->
-		<?php include_once("analyticstracking.php") ?>
+		<?php include_once("../analyticstracking.php") ?>
 		<!-- /GA -->
 		<div data-role="page" class="jqm-kms" data-quicklinks="true">
 			<div data-role="header" class="jqm-header">
