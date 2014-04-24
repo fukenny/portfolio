@@ -13,7 +13,7 @@
 .jqm-kms .jqm-header h2 a {
 	font-size: 1em;
 	font-weight: normal;
-	color: #000;
+	color: #000; 
 	padding-bottom: .25em;
 	margin: 0 0 .5em;
 	min-height: 40px;
@@ -776,3 +776,11 @@ cursor: auto;
 	min-height: 4em;
 } 
 }
+
+/* ==========================================================================
+   Content Border
+   ========================================================================== */
+	#border-left {
+		border-left: 1px solid #3eb249;
+		padding-left: 10px;
+	}
