@@ -21,8 +21,8 @@
 		<![endif]-->
 		<div data-role="page" class="jqm-kms jqm-home">
 			<div data-role="header" class="jqm-header">
-				<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
-				<img style="width: 100%; height: 400px;" src="_assets/img/skyline-2.jpg">
+				<a href="#" id="home-menu" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+				<img id="home-image" style="width: 100%; height: 400px;" src="_assets/img/skyline-2.jpg">
 			</div>
 			<!-- /header -->
 			<!-- main content -->
@@ -31,19 +31,19 @@
 				<p>I am a front end developer and Android developer living in Chicago. I chose to get into development for two reasons. It is something I am really good at and I actually enjoy the work. Every day I am reading up on the latest technologies and tips in the industry not because I feel I have to, but because I want to.</p>
 				<h2>Professional Life</h2>
 				<div class="jqm-block-content-clear">
-					<p>Over the years I have had to wear multiple hats in each of the companies I have worked with. I've learned that being good at one thing just isn't enough in today's world. Though I consider myself an expert with HTML/CSS, I also know Adobe Creative Suite. Learning CS made it easier for me to communicate clearly with designers from the print industry all the way to the web.</p>
-					<p>While doing content management I learned about SEO and how to optimize a website so it appears higher in search results. While promoting an Android application I had built, I learned how to utilize social media to extend my reach.</p>
+					<p>I started off working pre-press in a small print shop on Michigan Avenue. My duties included communicating with the client and their designers to prepare their projects to go to press. I became comfortable working inside Adobe’s Creative Suite, especially Photoshop and InDesign. My experience in the print world actually made my transition into web development easier. In fact, every project I work on prepares me to take on even larger challenges with the next project.</p>
+					<p>My first web project was working with a large consulting firm <a href="../webdev/">managing content and site updates</a> for over 16 websites worldwide. Dealing with content management led me to learn about SEO to improve search ranking.</p>
+					<p>I’ve also been able to use <a href="../socialmedia/">social media</a> to effectively promote a new product. When I developed my first Android application, my ability to market it via social media was a factor in winning a popular choice award for the app.</p>
 					<p>I've worked on projects from the conception of an idea to the final execution. I've learned how to anticipate problems and see where the road block might be. I understand the relationship between the designers, copy editors, branding managers, social media and mobile teams. When all these teams can work together the final product can be a beautiful thing.</p>
-					<p>I believe that every problem has a solution. If I don't know how to do something, I will learn how to do it. The resources are out there and one of my strengths is being able to locate those resources.</p>
-					<p>I work on a Mac but am also proficient with PC.
+					<p>Having to take on mulitple roles within a project while balancing multiple projects is something I have grown to expect. I believe that every problem has a solution. If I don't know how to do something, I will learn how to do it. The resources are out there and one of my strengths is being able to locate those resources.</p>
 					
 					
 				</div>
 				<h2>Personal Life</h2>
 				<div class="jqm-block-content-clear">
-					<p>Outside of the tech world I can find plenty to keep me busy. I'm a huge fan of music and seeing live shows and going to large festivals. I used to be a lighting and sound technician for a theater after I graduated high school, and still love the technical side of seeing a concert.</p>
-					<p>Though it overlaps with my professional life, I sometimes write about the shows I have seen. Sadly the blog I worked with no longer exists.</p>
-					<p>I also consider myself a pretty good carpenter. I enjoy being able to see what I have built at the end of the day. I've worked on sets for plays, rebuilt sections of decks and taken on other home improvement projects.</p>
+					<p>There is a thin line between my professional and personal life. Because I find the internet fascinating I spend a lot of free time reading up on new related technologies. I also use my free time to think of ways to use technology to improve the things I enjoy doing most.</p>
+					<p>When I do finally step away from the computer I enjoy going to see live music. Small shows or large festivals, doesn’t matter to me. I used to be a light and sound technician at a small theater when I was younger and still find myself critiquing the technical side of every show I go see.</p>
+					<p>Though I don’t get to do it as often these days, I also consider myself a decent carpenter. I find satisfaction in working with my hands to build something. I’ve worked on sets for plays, rebuilt sections of decks and taken on other home improvement projects.</p>
 				</div>
 			</div>
 			<!-- /content -->

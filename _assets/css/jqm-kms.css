@@ -4,7 +4,7 @@
 .jqm-kms .jqm-header {
 	background: #d8efda;
 	border-top: 4px solid #3eb249;
-	border-bottom-color: #eee;
+	border-bottom-color: #3eb249;
 }
 .jqm-kms .jqm-header h2 {
 	padding: .4em 0 .1em;
@@ -12,7 +12,7 @@
 }
 .jqm-kms .jqm-header h2 a {
 	font-size: 1em;
-	font-weight: bold;
+	font-weight: normal;
 	color: #000;
 	padding-bottom: .25em;
 	margin: 0 0 .5em;
@@ -756,4 +756,23 @@
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   a: links
+   ========================================================================== */
+a:-webkit-any-link {
+color: #38c;
+text-decoration: none;
+cursor: auto;
+}
+
+/* Less then 620 px -------------------*/ 
+@media all and (max-width: 620px){ 
+#home-image { 
+	display:none;
+}
+#home-menu {
+	min-height: 4em;
+} 
 }

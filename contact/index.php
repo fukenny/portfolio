@@ -29,8 +29,8 @@
 				<div class="ui-grid-a ui-responsive">
 					<div class="ui-block-a">
 						<div class="jqm-block-content">
-							<h2>Send me an email</h2>
-							<p>You can reach out to me at <a href="mailto:ksolans1f@gmail.com">ksolans1f@gmail.com</a></p>
+							<h3>Send me an email</h3>
+							<p>You can reach me at:<br><a href="mailto:ksolans1f@gmail.com">ksolans1f@gmail.com</a></p>
 							<!--
 							<label for="basic">Name:</label>
 							<input type="text" name="name" id="basic" value="" data-mini="true" />
@@ -49,7 +49,7 @@
 						</div>
 						<div class="ui-block-b">
 							<div class="jqm-block-content">
-								<h2>You can follow me on these networks</h2>
+								<h3>You can follow me here</h3>
 								<ul data-role="listview" data-inset="true">
 									<li><a href="https://plus.google.com/u/0/+KenSolans/about" target="_blank">
 										<img src="../_assets/img/googleplus.png" class="ui-li-thumb">
