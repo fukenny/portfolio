@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Social Media - Kenneth Solans</title>
-		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="shortcut icon" href="../favicon.png">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 		<link rel="stylesheet" href="../css/themes/default/jquery.mobile-1.4.2.min.css">
 		<link rel="stylesheet" href="../_assets/css/jqm-kms.css">
@@ -27,6 +27,29 @@
 				<h1>It Is All About Social</h1>
 				
 				<p>Building a beautiful website doesn't matter if you can't get anyone to visit it. This is where social media is important. Depending on what you are trying to achieve, there is a social network out there to help drive traffic to your site.</p>
+				<h2>The Story of Showfile.fm</h2>
+				<div class="jqm-block-content-clear">
+					<p>Showfile.fm was a site built in response to my <a href="../androiddev/" data-ajax="false">Who’s Now Who’s Next Android app</a>. While WNWN focused only on the at the festival experience, Showfile.fm allowed users to explore the artists that were going to be at the festival(s) they were going to, and after the festival track they artists they saw.</p>
+					<p>Using social media to find new users for the website was an obvious choice. The first step was identifying my target audience. Then I needed to figure out what the best social networks to utilize were going to be. Since music festivals are enjoyed by a wide range of people, Facebook and Twitter were the main focus. I created Showfile accounts for both.</p>
+				</div>
+				<div class="ui-grid-a ui-responsive">
+					<div class="ui-block-a">
+						<div class="jqm-block-content-clear">
+							<p>With sites like Facebook and Twitter it isn’t enough to just post information about yourself. You need to be active and involved with others on the site. I started following from the Showfile account festivals, artists and other bloggers. Doing this brought into my feed thoughts and ideas from others that I would be able to repost from the Showfile accounts.</p>
+							<p>At this point I had material to post both about Showfile.fm and the music world in general. But I still needed something to make us stand out as a leader in this field. The next step was to start a blog. With the blog I was able to curate original content that I would post to the social networks. I would write reviews of shows I would go see, give festival tips and tricks, and preview up and coming artists.</p>
+						</div>
+					</div>
+					<div class="ui-block-b">
+						<div class="jqm-block-content">
+							<img src="../_assets/img/showfileFM.png" style="width: 100%">
+						</div>
+					</div>
+				</div>
+				<div class="jqm-block-content-clear">
+					<p>I found that after I reviewed a show or artist it was smart to tweet that blog post to the artist themselves. People love (usually) when others are talking about them, and would often repost it to their fan base. Then a fan would see their favorite artist posting about a blog, and that fan would follow Showfile and post that out to their followers.</p>
+					<p>Using Facebook Ads I was able to increase our reach before each festival. Being able to target an age range in a location with a certain interest led to a wider fan base.</p>
+					<p>Though Showfile.fm wasn’t specific to Lollapalooza, I entered it in to the 2012 HackLolla competition and won the Popular Choice Award for the second year in a row. The ability to use social media to get the site in front of as many people as possible as well as get them interested enough to vote for it is one reason Showfile won.</p>
+				</div>
 				<h2>Why Social Media?</h2>
 				<div class="ui-grid-a ui-responsive">
 					<div class="ui-block-a">
@@ -40,25 +63,25 @@
 						</div>
 					</div>
 				</div>
-				<h2>How to Get Started</h2>
+				<!--<h2>How to Get Started</h2>
 				<div class="jqm-block-content-clear">
-					<p>When setting up your social media plan, there are questions you need to ask.
-					<ul>
-						<li>What social networks are you currently utilizing?</li>
-						<li>How often are you posting?</li>
-						<li>What are you posting?</li>
+						<p>When setting up your social media plan, there are questions you need to ask.
 						<ul>
-							<li>Are you posting original content from your website?</li>
-							<li>Are you resharing content from an external source?</li>
+								<li>What social networks are you currently utilizing?</li>
+								<li>How often are you posting?</li>
+								<li>What are you posting?</li>
+								<ul>
+										<li>Are you posting original content from your website?</li>
+										<li>Are you resharing content from an external source?</li>
+								</ul>
+								<li>Do you have photos or videos to post?</li>
+								<li>Are you posts getting interactions? (Likes, comments, shares)</li>
+								<li>Is there a blog on your website?</li>
+								<li>Is the content of that blog original content or a repost of external content?</li>
 						</ul>
-						<li>Do you have photos or videos to post?</li>
-						<li>Are you posts getting interactions? (Likes, comments, shares)</li>
-						<li>Is there a blog on your website?</li>
-						<li>Is the content of that blog original content or a repost of external content?</li>
-					</ul>
-					</p>
-					<p>Once you answer these questions you can start setting up how you approach.</p>
-				</div>
+						</p>
+						<p>Once you answer these questions you can start setting up how you approach.</p>
+				</div>-->
 				<a href="#ui-page-top" class="jqm-deeplink ui-icon-carat-u ui-alt-icon">Top</a>
 			</div>
 			<!-- /main content -->
