@@ -33,7 +33,7 @@
 				<div class="jqm-block-content-clear">
 					<p>I started off working pre-press in a small print shop on Michigan Avenue. My duties included communicating with the client and their designers to prepare their projects to go to press. I became comfortable working inside Adobe’s Creative Suite, especially Photoshop and InDesign. My experience in the print world actually made my transition into web development easier. In fact, every project I work on prepares me to take on even larger challenges with the next project.</p>
 					<p>My first web project was working with a large consulting firm <a href="../webdev/">managing content and site updates</a> for over 16 websites worldwide. Dealing with content management led me to learn about SEO to improve search ranking.</p>
-					<p>I’ve also been able to use <a href="../socialmedia/">social media</a> to effectively promote a new product. When I developed my first Android application, my ability to market it via social media was a factor in winning a popular choice award for the app.</p>
+					<p>I’ve also been able to use <a href="../socialmedia/">social media</a> to effectively promote a new product. When I developed my first <a href="../androiddev/">Android application</a>, my ability to market it via social media was a factor in winning a popular choice award for the app.</p>
 					<p>I've worked on projects from the conception of an idea to the final execution. I've learned how to anticipate problems and see where the road block might be. I understand the relationship between the designers, copy editors, branding managers, social media and mobile teams. When all these teams can work together the final product can be a beautiful thing.</p>
 					<p>Having to take on mulitple roles within a project while balancing multiple projects is something I have grown to expect. I believe that every problem has a solution. If I don't know how to do something, I will learn how to do it. The resources are out there and one of my strengths is being able to locate those resources.</p>
 					
@@ -41,7 +41,7 @@
 				</div>
 				<h2>Personal Life</h2>
 				<div class="jqm-block-content-clear">
-					<p>There is a thin line between my professional and personal life. Because I find the internet fascinating I spend a lot of free time reading up on new related technologies. I also use my free time to think of ways to use technology to improve the things I enjoy doing most.</p>
+					<p>There is a thin line between my professional and personal life. Because I find the internet so fascinating I spend a lot of free time reading up on new related technologies. I also use my free time to think of ways to use technology to improve the things I enjoy doing most.</p>
 					<p>When I do finally step away from the computer I enjoy going to see live music. Small shows or large festivals, doesn’t matter to me. I used to be a light and sound technician at a small theater when I was younger and still find myself critiquing the technical side of every show I go see.</p>
 					<p>Though I don’t get to do it as often these days, I also consider myself a decent carpenter. I find satisfaction in working with my hands to build something. I’ve worked on sets for plays, rebuilt sections of decks and taken on other home improvement projects.</p>
 				</div>

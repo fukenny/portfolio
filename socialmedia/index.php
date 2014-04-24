@@ -25,7 +25,6 @@
 			<!-- main content -->
 			<div role="main" class="ui-content jqm-content">
 				<h1>It Is All About Social</h1>
-				
 				<p>Building a beautiful website doesn't matter if you can't get anyone to visit it. This is where social media is important. Depending on what you are trying to achieve, there is a social network out there to help drive traffic to your site.</p>
 				<h2>The Story of Showfile.fm</h2>
 				<div class="jqm-block-content-clear">
@@ -49,6 +48,8 @@
 					<p>I found that after I reviewed a show or artist it was smart to tweet that blog post to the artist themselves. People love (usually) when others are talking about them, and would often repost it to their fan base. Then a fan would see their favorite artist posting about a blog, and that fan would follow Showfile and post that out to their followers.</p>
 					<p>Using Facebook Ads I was able to increase our reach before each festival. Being able to target an age range in a location with a certain interest led to a wider fan base.</p>
 					<p>Though Showfile.fm wasn’t specific to Lollapalooza, I entered it in to the 2012 HackLolla competition and won the Popular Choice Award for the second year in a row. The ability to use social media to get the site in front of as many people as possible as well as get them interested enough to vote for it is one reason Showfile won.</p>
+
+					<p>Though Showfile.fm is taking this year off, you can check them out on <a href="https://www.facebook.com/Showfile" target="_blank">Facebook</a> and <a href="https://twitter.com/showfile" target="_blank">Twitter</a>.</p>
 				</div>
 				<h2>Why Social Media?</h2>
 				<div class="ui-grid-a ui-responsive">
