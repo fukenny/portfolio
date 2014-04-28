@@ -1,5 +1,6 @@
-<div data-role="header" class="jqm-header" data-position="fixed" style="overflow:hidden;">
-	<img src="../favicon.png"><h2 text-align="left"><a href="../">Kenneth Solans</a></h2>
+<div data-role="header" class="jqm-header" data-position="fixed" style="overflow:hidden;" data-iconpos="left">
+	<h2><a href="../" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-favicon ui-btn-icon-left" style="border: none">Kenneth Solans</a></h2>
+	<!--<h2 text-align="left" data-icon="grid"><a href="../">Kenneth Solans</a></h2>-->
 	<div data-role="navbar" data-fullscreen="true" class="kms-navbar">
 		<ul>
 					<li data-filtertext="Web Development"><a href="../webdev/" data-ajax="false">Web Development</a></li>

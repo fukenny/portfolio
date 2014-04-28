@@ -766,6 +766,14 @@ KMS Content
 padding-top: 3em;
 margin: 10px 150px 10px 150px;
 }
+
+/* Less then 750 px -------------------*/
+@media all and (max-width: 750px){
+.jqm-kms .kms-content {
+padding-top: 3em;
+margin: 10px 15px 10px 15px;
+}
+}
 .jqm-kms .kms-content > h1,
 .jqm-kms .kms-content > h2,
 .jqm-kms .kms-content > h3,
