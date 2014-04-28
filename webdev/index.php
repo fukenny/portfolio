@@ -16,15 +16,17 @@
 		<!-- Google Analytics include -->
 		<?php include_once("../analyticstracking.php") ?>
 		<!-- /GA -->
+		<!-- Header -->
 		<div data-role="page" class="jqm-kms" data-quicklinks="true">
-			<div data-role="header" class="jqm-header">
+			<?php include_once("../includes/header.php") ?>
+			<!--<div data-role="header" class="jqm-header">
 				<h2><a href="../" title="Web Website Development Blogs Content Management">Kenneth Solans</a></h2>
 				<p>Web Development</p>
 				<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
-			</div>
-			<!-- /header -->
+			</div>-->
+			<!-- /Header -->
 			<!-- Main Content -->
-			<div role="main" class="ui-content jqm-content">
+			<div role="main" class="kms-content">
 				<h1>It All Starts With the Internet</h1>
 				<p>Not only is the internet not going away, it is growing. According to research by <a href="http://www.pewresearch.org/about/" target="_blank">the Pew Research Center</a>, 87% of adults in the United States use the internet on a daily basis. With a number like that, I can't think of a reason why a business shouldn't have an online presence.</p>
 				<h2>How ksolans.com Was Built</h2>
@@ -78,7 +80,7 @@
 			</div>
 			<!-- /main content -->
 			<!-- Menu -->
-			<div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+			<!--<div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
 				<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
 					<li data-filtertext="KMS Ken Kenneth Solans home homepage" data-icon="home" class="ui-first-child"><a href=".././">Home</a></li>
 					<li data-filtertext="Web Development"><a href="../webdev/" data-ajax="false">Web Development</a></li>
@@ -87,7 +89,7 @@
 					<li data-filtertext="Resume Experience Projects"><a href="../resume/" data-ajax="false">Resume</a></li>
 					<li data-filtertext="Contact"><a href="../contact/" data-ajax="false">Contact</a></li>
 				</ul>
-			</div>
+			</div>-->
 			<!-- /Menu -->
 			<!-- Footer -->
 			<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">

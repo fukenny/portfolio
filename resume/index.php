@@ -29,6 +29,8 @@
                 <!-- Intro -->
                 <p>I have over six years of experience as a developer and content manager have taught me the necessary skills to be successful and how to take a project to the next level. My ability to understand the process outside of my individual duties allows me to focus on company goals, anticipate needs and communicate effectively.</p>
                 <!-- /Intro -->
+
+                <p>You can download my <a href="../_assets/img/KennethSolans_resume-4-14.pdf">resume in pdf format</a>.</p>
                 <!-- Skills -->
                 <h2>Skills</h2>
                 <div class="ui-grid-a ui-responsive">
