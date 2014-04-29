@@ -1052,7 +1052,8 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 .ui-header .ui-title, .ui-footer .ui-title {
 	font-size: 1em;
 	min-height: 1.1em;
-	text-align: center;
+	text-align: left;
+	margin-left: 5em;
 	display: block;
 	margin: 0 30%;
 	padding: .7em 0;

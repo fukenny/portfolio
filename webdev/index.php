@@ -22,8 +22,11 @@
 			<!--<div data-role="header" class="jqm-header">
 				<h2><a href="../" title="Web Website Development Blogs Content Management">Kenneth Solans</a></h2>
 				<p>Web Development</p>
-				<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+				
 			</div>-->
+			<!--
+			<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+		-->
 			<!-- /Header -->
 			<!-- Main Content -->
 			<div role="main" class="kms-content">
@@ -80,7 +83,7 @@
 			</div>
 			<!-- /main content -->
 			<!-- Menu -->
-			<!--<div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+			<div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
 				<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
 					<li data-filtertext="KMS Ken Kenneth Solans home homepage" data-icon="home" class="ui-first-child"><a href=".././">Home</a></li>
 					<li data-filtertext="Web Development"><a href="../webdev/" data-ajax="false">Web Development</a></li>
@@ -89,7 +92,7 @@
 					<li data-filtertext="Resume Experience Projects"><a href="../resume/" data-ajax="false">Resume</a></li>
 					<li data-filtertext="Contact"><a href="../contact/" data-ajax="false">Contact</a></li>
 				</ul>
-			</div>-->
+			</div>
 			<!-- /Menu -->
 			<!-- Footer -->
 			<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">

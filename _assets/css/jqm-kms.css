@@ -1,5 +1,54 @@
 /* JQM K Solans custom CSS */
-/* Header */
+/* ==========================================================================
+kms-header
+========================================================================== */
+.jqm-kms .kms-header {
+background: #d8efda; 
+border-top: 4px solid #3eb249;
+border-bottom-color: #3eb249;
+}
+.jqm-kms .kms-header h2 {
+padding: .4em 0 .1em;
+margin: 0 3em;
+}
+.jqm-kms .kms-header h2 a {
+font-size: 1em;
+font-weight: normal;
+color: #000;
+padding-bottom: .25em;
+margin: 0 0 .5em;
+min-height: 40px;
+}
+.jqm-kms .kms-header h2 img {
+display: block;
+width: 140px;
+height: auto;
+}
+.jqm-kms .kms-header h2 > img {
+display: inline-block;
+}
+.jqm-kms .kms-header p {
+position: absolute;
+bottom: -2em;
+left: 1em;
+margin: 0;
+color: #666;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+text-transform: uppercase;
+}
+.jqm-kms .kms-header .ui-btn {
+height: 2em;
+background: none;
+border: 0;
+margin-top: 0em;
+-webkit-border-radius: .3125em;
+border-radius: .3125em;
+opacity: .4;
+filter: Alpha(Opacity=40);
+}
+/* End KMS Header */
+/* Header Stock */
 .jqm-kms .jqm-header {
 background: #d8efda;
 border-top: 4px solid #3eb249;
@@ -14,7 +63,7 @@ font-size: 1em;
 font-weight: normal;
 color: #000;
 padding-bottom: .25em;
-margin: 0 0 .5em;
+margin: 0 0 .5em 6.65em;
 min-height: 40px;
 }
 .jqm-kms .jqm-header h2 img {
@@ -31,7 +80,7 @@ bottom: -2em;
 left: 1em;
 margin: 0;
 color: #666;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: 300;
 text-transform: uppercase;
 }
@@ -41,7 +90,7 @@ height: 2em;
 background: none;
 border: 0;
 top: 50%;
-margin-top: -1em;
+margin-top: -1.25em;
 -webkit-border-radius: .3125em;
 border-radius: .3125em;
 opacity: .4;
@@ -59,7 +108,7 @@ border-top: 1px solid #3eb249;
 .jqm-kms .jqm-footer p {
 font-size: .8em;
 color: #999;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: 300;
 margin: 0 1.25em 1.25em;
 }
@@ -355,7 +404,7 @@ float: left;
 margin: 1.25em 1.25em 1.25em 3%;
 }
 .jqm-kms .jqm-navmenu-panel {
-visibility: visible;
+/*visibility: visible;*/
 position: relative;
 left: 0;
 float: left;
@@ -767,8 +816,8 @@ padding-top: 3em;
 margin: 10px 150px 10px 150px;
 }
 
-/* Less then 750 px -------------------*/
-@media all and (max-width: 750px){
+/* Less then 768px Tablet Width -------------------*/
+@media all and (max-width: 768px){
 .jqm-kms .kms-content {
 padding-top: 3em;
 margin: 10px 15px 10px 15px;
@@ -780,7 +829,7 @@ margin: 10px 15px 10px 15px;
 .jqm-kms .kms-content > p,
 .jqm-kms .kms-content > ul li,
 .jqm-kms .kms-content > a {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: 300;
 }
 .jqm-kms .kms-content > h1 {
@@ -792,7 +841,6 @@ color: #3eb249;
 background-color: transparent;
 border-bottom: 1px solid #ddd;
 font-size: 1.6em;
-/*padding-bottom: .2em;*/
 margin: 0 0 .7375em;
 }
 .jqm-kms .kms-content > h3 {
@@ -847,7 +895,24 @@ height: 2em;
 .kms-navbar ul li:first-child {
 border-left: none !important;
 }
-@media all and (max-width: 620px){
+.kms-navbar .navlist {
+	margin: 0 150px 0 150px;
+}
+/* Less then 1000px Wide Tablet Width -------------------*/
+@media all and (max-width: 1000px){
+.kms-navbar .navlist {
+	margin: 0;
+}
+}
+
+/* Less then 768px Tablet Width -------------------*/
+@media all and (max-width: 768px){
 .kms-navbar {
 display:none;
+}
+
+/* More then 620 px -------------------*/
+@media all and (min-width: 1220){
+.jqm-kms .jqm-navmenu-panel {
+	display: none;
 }

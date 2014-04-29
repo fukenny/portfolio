@@ -19,14 +19,11 @@
 		<!--[if lt IE 8]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-		<div data-role="page" class="jqm-kms jqm-home">
-			<div data-role="header" class="jqm-header">
-				<a href="#" id="home-menu" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
-				<img id="home-image" style="width: 100%; height: 400px;" src="_assets/img/skyline-2.jpg">
-			</div>
+		<div data-role="page" class="jqm-kms kms-home" data-quicklinks="true">
+			<?php include_once("includes/home-header.php") ?>
 			<!-- /header -->
 			<!-- main content -->
-			<div role="main" class="ui-content jqm-content">
+			<div role="main" class="ui-content kms-content">
 				<h1>Who is Kenneth Solans?</h1>
 				<p>I am a front end developer and Android developer living in Chicago. I chose to get into development for two reasons. It is something I am really good at and I actually enjoy the work. Every day I am reading up on the latest technologies and tips in the industry not because I feel I have to, but because I want to.</p>
 				<h2>Professional Life</h2>
@@ -48,16 +45,18 @@
 			</div>
 			<!-- /content -->
 			<!-- Menu -->
-			<div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+			
+			<div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a" style="visibility: none">
 				<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
-					<li data-filtertext="KMS Ken Kenneth Solans home homepage" data-icon="home" class="ui-first-child"><a href=".././">Home</a></li>
-					<li data-filtertext="Web Development"><a href="../webdev/" data-ajax="false">Web Development</a></li>
-					<li data-filtertext="Android Development Mobile Apps Java"><a href="../androiddev/" data-ajax="false">Android Development</a></li>
-					<li data-filtertext="Social Media"><a href="../socialmedia/" data-ajax="false">Social Media</a></li>
-					<li data-filtertext="Resume Experience Projects"><a href="../resume/" data-ajax="false">Resume</a></li>
-					<li data-filtertext="Contact"><a href="../contact/" data-ajax="false">Contact</a></li>
+					<li data-filtertext="KMS Ken Kenneth Solans home homepage" data-icon="home" class="ui-first-child"><a href="../">Home</a></li>
+					<li data-filtertext="Web Development"><a href="webdev/" data-ajax="false">Web Development</a></li>
+					<li data-filtertext="Android Development Mobile Apps Java"><a href="androiddev/" data-ajax="false">Android Development</a></li>
+					<li data-filtertext="Social Media"><a href="socialmedia/" data-ajax="false">Social Media</a></li>
+					<li data-filtertext="Resume Experience Projects"><a href="resume/" data-ajax="false">Resume</a></li>
+					<li data-filtertext="Contact"><a href="contact/" data-ajax="false">Contact</a></li>
 				</ul>
 			</div>
+
 			<!-- /Menu -->
 			<!-- Footer -->
 			<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
